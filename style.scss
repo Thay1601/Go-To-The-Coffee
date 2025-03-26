@@ -1,0 +1,50 @@
+/*
+seletor {
+    propriedade: valor;
+}
+*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #BE987E;
+}
+
+header {
+    background-color: #492E23;
+    color: white;
+    height: 60px;
+    padding-left: 30px;
+    padding-top: 10px;
+}
+
+section {
+    border: solid #492E23 10px;
+    // margin: 50px 40px 0 20px;
+    // margin: top(em cima) right(direita) bottom(embaixo) left(esquerda);
+    margin: 50px 40px;
+    // margin: (top/bottom) (right/left);
+    padding-left: 35px;
+
+    figure {
+        margin-top: 30px;
+
+        img {
+            width: 120px;
+        }
+
+        figcaption {
+            padding-left: 20px;
+        }
+    }
+
+    button {
+        margin: 20px 10px;
+        padding: 10px;
+        background-color: #492E23 ;
+        color: white;
+    }
+}
